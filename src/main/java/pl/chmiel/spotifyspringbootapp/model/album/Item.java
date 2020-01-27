@@ -18,7 +18,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
     "external_urls",
     "href",
     "id",
-    "images",
+        "images",
     "name",
     "release_date",
     "release_date_precision",

@@ -61,7 +61,7 @@ public class SpotifyAlbumClient {
                 .map(item -> new SpotifyAlbumDto(item.getName(), item.getImages().get(0).getUrl(), item.getHref()))
                 .collect(Collectors.toList());
 
-        return "index.html";
+        return "/index";
     }
 
     @GetMapping("/tracks/{album}")
